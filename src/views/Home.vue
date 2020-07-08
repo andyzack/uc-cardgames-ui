@@ -1,7 +1,7 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+  <div class="home text-center text-primary-color">
+    <img alt="Vue logo" src="../assets/logo.svg" class="ml-auto mr-auto" />
+    <HelloWorld class="my-12" msg="Welcome to UC Games Room App" />
   </div>
 </template>
 
