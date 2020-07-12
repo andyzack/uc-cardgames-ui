@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="328" height="222" viewBox="0 0 328 222">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #000203;
+        stroke-linejoin: round;
+        fill-rule: evenodd;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #fff;
+        stroke-width: 20px;
+      }
+
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        filter: url(#filter-2);
+      }
+
+      .cls-3 {
+        stroke: #cbd752;
+        stroke-linecap: round;
+        stroke-width: 0;
+      }
+
+      .cls-4, .cls-5 {
+        font-size: 220px;
+        fill: #3c3;
+        font-family: "Malayalam MN";
+        font-weight: 700;
+      }
+
+      .cls-4 {
+        filter: url(#filter-3);
+      }
+
+      .cls-5 {
+        filter: url(#filter-4);
+      }
+    </style>
+    <filter id="filter" x="198" y="35" width="97" height="112" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="2.333" in="SourceAlpha"/>
+      <feComposite result="composite"/>
+      <feComposite result="composite-2"/>
+      <feComposite result="composite-3"/>
+      <feFlood result="flood" flood-opacity="0.35"/>
+      <feComposite result="composite-4" operator="in" in2="composite-3"/>
+      <feBlend result="blend" mode="multiply" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in="SourceGraphic"/>
+      <feGaussianBlur result="blur-2" stdDeviation="6" in="SourceAlpha"/>
+      <feFlood result="flood-2" flood-color="#fcd004" flood-opacity="0.8"/>
+      <feComposite result="composite-6" operator="out" in2="blur-2"/>
+      <feComposite result="composite-5" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend-3" mode="multiply" in2="blend-2"/>
+    </filter>
+    <filter id="filter-2" x="38" y="41" width="97" height="112" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="2.333" in="SourceAlpha"/>
+      <feComposite result="composite"/>
+      <feComposite result="composite-2"/>
+      <feComposite result="composite-3"/>
+      <feFlood result="flood" flood-opacity="0.35"/>
+      <feComposite result="composite-4" operator="in" in2="composite-3"/>
+      <feBlend result="blend" mode="multiply" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in="SourceGraphic"/>
+      <feGaussianBlur result="blur-2" stdDeviation="6" in="SourceAlpha"/>
+      <feFlood result="flood-2" flood-color="#fcd004" flood-opacity="0.8"/>
+      <feComposite result="composite-6" operator="out" in2="blur-2"/>
+      <feComposite result="composite-5" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend-3" mode="multiply" in2="blend-2"/>
+    </filter>
+    <filter id="filter-3" x="8" y="7" width="134" height="150" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#78ebfd"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+    <filter id="filter-4" x="169" y="3" width="155" height="154" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#78ebfd"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g style="fill: #000203; filter: url(#filter)">
+    <path id="path" class="cls-1" d="M239.431,57.743c13.776-2.928,28.108,9.588,32.012,27.955s-4.1,35.631-17.874,38.559-28.108-9.588-32.012-27.955S225.655,60.671,239.431,57.743Z" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use xlink:href="#path" style="stroke: #fff; filter: none; fill: none"/>
+  <g style="fill: #000203; filter: url(#filter-2)">
+    <path id="Ellipse_1_copy" data-name="Ellipse 1 copy" class="cls-2" d="M93.569,63.743C79.794,60.815,65.461,73.331,61.557,91.7s4.1,35.631,17.874,38.559,28.108-9.588,32.012-27.955S107.345,66.671,93.569,63.743Z" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use xlink:href="#Ellipse_1_copy" style="stroke: #fff; filter: none; fill: none"/>
+  <path class="cls-3" d="M103,190c6.777,3.561,44.046,21.661,69,17s47.6-30.68,54-39,5.217,1.852,2,7-29.242,38.1-54,42-65.523-15.9-71-20S96.223,186.439,103,190Z"/>
+  <text id="U" class="cls-4" x="-10.491" y="152.148">U</text>
+  <text id="C" class="cls-5" x="155.408" y="151.81">C</text>
+</svg>

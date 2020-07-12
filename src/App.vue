@@ -1,12 +1,13 @@
 <template>
   <div id="app" class="uc-wrapper flex flex-col h-screen">
+    <!-- HEADER //START -->
     <header class="uc-header">
       <nav class="flex items-center justify-between flex-wrap p-3">
         <div class="flex items-center flex-shrink-0 text-white mr-6">
           <img
-            alt="UC Games"
-            src="./assets/logo.svg"
             class="fill-current w-16 mr-2 mt-4"
+            src="./assets/logo.svg"
+            alt="UC Games"
           />
           <span class="font-medium text-base tracking-tight leading-none"
             >game <span class="block text-sm ">rooms</span></span
@@ -16,7 +17,8 @@
           <!-- MENU -->
           <nav id="nav" class="text-white">
             <router-link to="/">Home</router-link> |
-            <router-link to="/about">About</router-link>
+            <router-link to="/dash">Dash</router-link> |
+            <router-link to="/game">Game</router-link>
           </nav>
         </div>
         <div class="block lg:hidden">
@@ -35,6 +37,9 @@
         </div>
       </nav>
     </header>
-    <router-view />
+    <!-- HEADER //END -->
+    <div class="uc-main container flex-auto">
+      <router-view />
+    </div>
   </div>
 </template>
